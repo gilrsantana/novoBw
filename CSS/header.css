@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Roboto:wght@300&display=swap');
@@ -8,6 +9,18 @@ header {
     margin:0 auto;
     height: 433px;
     background-color: #000000;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 900px solid #ffffff;
+    border-top: 600px solid transparent;
+    border-bottom: 900px solid transparent;
+    position: absolute;
+    top: -120px;
+    left: 1100px;
+    transform: rotate(70deg);
 }
 
 .header-box {
