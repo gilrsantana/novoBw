@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Roboto:wght@300&display=swap');
+
+
+.about {
+    font-family: 'Libre Baskerville', serif;
+    padding: 50px 0;
+    
+    background-color: #d3d3d3;
+    
+}
+
+.about-box {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+.ident {
+    flex-basis: 10%;
+    position: relative;
+
+}
+
+.ident span{
+    display: inline-block;
+    margin-bottom: 50px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 10px;
+}
+.ident p {
+    line-height: 45px;
+    font-size: 40px;
+    margin-left: 15px;
+}
+.content-about {
+    flex-basis: 85%;
+    margin: 0 auto;
+}
+
+.content-about h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    border-bottom: 3px solid goldenrod;
+}
+
+.content-about h2::first-letter {
+    color: rgba(0,0,0,0.5);
+    font-size: 1.5em;
+}
+
+.content-about p {
+    font-style: italic;
+    line-height: 50px;
+}
+
+.value-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.value {
+    flex-basis: 250px;
+    height: 250px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.value:hover {
+    transform: translateY(-10px);
+    transition: 0.5s ;
+}
+
+
+.value h3{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.value p {
+    font-style: italic;
+    line-height: 40px;
+}
+
+.vl1 {
+    position: relative;
+}
+
+.vl1::after {
+    content: "1";
+    font-size: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 250px;
+}
+
+
+.vl2 {
+    position: relative;
+}
+
+.vl2::after {
+    content: "2";
+    font-size: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 250px;
+}
+
+.vl3 {
+    position: relative;
+}
+
+.vl3::after {
+    content: "3";
+    font-size: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 250px;
+}
+
+.vl4 {
+    position: relative;
+}
+
+.vl4::after {
+    content: "4";
+    font-size: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 250px;
+}
+
+.vl5 {
+    position: relative;
+}
+
+.vl5::after {
+    content: "5";
+    font-size: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 250px;
+}
+
+.value:hover.vl1::after,
+.value:hover.vl2::after,
+.value:hover.vl3::after,
+.value:hover.vl4::after,
+.value:hover.vl5::after {
+    color: rgb(218,165,32);
+}
+
+@media screen and (max-width: 768px){
+    .value-box {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .ident {
+        flex-basis: 85%;
+        display: flex;
+        margin-bottom: 50px;
+    }
+
+    .ident p{
+        
+       padding-top: 10px;
+    }
+
+}
