@@ -11,30 +11,37 @@
   </head>
 
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="menuBtn"><img src="./Assets/Img/menu.png" alt="Menu icon"></div></li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#contact">Contato</a></li>
+    <header class="principal-header">
+      <nav class="principal-nav">
+        <ul class="navbar" id="navbar">
+          <li class="menuBtn" id="menuBtn"><img src="./Assets/Img/menu.png" alt="Menu icon" id="menu"></div></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
         </ul>
-      </nav>
-      <img class="capa" src="./Assets/Img/capa.png" alt="">
+      </nav><!-- /principal-nav-->
+      <div class="capa">
+        <img src="./Assets/Img/capa.png" alt="">
+      </div>
+      
       <div class="header-box">
-        
-        
         <div class="content-header">
           <p>A JORNADA<br><span class="destack">NUNCA</span><br>TERMINA</p>
           <p class="header-description">Estudar, <span class="destack">hoje</span>, deve ser um compromisso. Praticar, <span class="destack">sempre</span>, deve ser uma obsessão.</p>
-        </div>
-        <div class="triangle"></div>
-      </div>
+        </div><!-- /content-header -->
+
+        <div class="arrows">
+          <div class="triangle tr1"></div>
+          <div class="triangle tr2"></div>
+          <div class="triangle tr3"></div>
+          <div class="triangle tr4"></div>
+          <div class="triangle tr5"></div>
+          <div class="triangle tr6"></div>
+        </div><!-- /arrows -->
+      </div><!-- /header-box -->
       
-      
-      
-    </header>
+    </header><!-- /principal-header -->
 
     <main>
       <section class="about" id="about">
@@ -97,6 +104,25 @@
         
       </section>
     </main>
+
+    <script>
+      var menuBtn = document.querySelector("#menuBtn");
+      var menu = document.querySelector("#menu");
+      var navbar = document. querySelector("#navbar");
+
+      navbar.style.right = "-250px";
+
+      menuBtn.onclick = function() {
+        if(navbar.style.right == "-250px") {
+          navbar.style.right = "-1px";
+          menu.src = "./Assets/Img/close.png"
+        } else {
+          navbar.style.right = "-250px";
+          menu.src = "./Assets/Img/menu.png"
+        }
+      }
+
+    </script>
   </body>
 
 </html>
