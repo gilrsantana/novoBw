@@ -17,18 +17,6 @@ header {
     border: none;
 }
 
-.bg-black {
-    width: 2000px;
-    height: 800px;
-    background-color: #000000;
-    border-radius: 100px;
-    transform:rotateZ(-20deg);
-    position: absolute;
-    bottom: 40px;
-    left: -50px; 
-    z-index: 2;
-}
-
 .capa {
     position: absolute;
     top: 0;
