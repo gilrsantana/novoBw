@@ -6,9 +6,7 @@
 .about {
     font-family: 'Libre Baskerville', serif;
     padding: 50px 0;
-    
     background-color: #d3d3d3;
-    
 }
 
 .about-box {
@@ -16,7 +14,6 @@
     justify-content:center;
     align-items: flex-start;
     flex-wrap: wrap;
-    
 }
 
 .ident {
@@ -43,15 +40,15 @@
     margin: 0 auto;
 }
 
-.content-about h2 {
+.title-section {
     font-size: 3em;
     margin-bottom: 15px;
     border-bottom: 3px solid goldenrod;
 }
 
-.content-about h2::first-letter {
+.title-section::first-letter {
     color: rgba(0,0,0,0.5);
-    font-size: 1.5em;
+    font-size: 1.5em;   
 }
 
 .content-about p {
