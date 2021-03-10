@@ -29,7 +29,7 @@
 }
 
 .job {
-    flex-basis: 40%;
+    flex-basis: 350px;
     height: 300px;
     background-color: #dedede;
     color: #000000;
@@ -55,12 +55,17 @@
     background-size: cover;
 } 
 
+.job4 {
+    background: url("../Assets/Img/Finans2.png") center no-repeat;
+    background-size: cover;
+} 
+
 .job1:hover,
 .job2:hover,
 .job3:hover,
 .job4:hover {
     filter: none;
-    flex-basis: 45%;
-    transition: 1s ease;
+    flex-basis: 390px;
+    transition:0.5s ease;
 }
 
