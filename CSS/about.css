@@ -189,8 +189,11 @@
     }
 
     .ident p{
-        
-       padding-top: 10px;
+        margin-left: 0;
+        padding-top: 10px;
     }
 
+    .ident span{
+        margin-right: 10px;
+    }
 }
