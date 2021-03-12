@@ -131,6 +131,7 @@
     align-items:flex-end;
     list-style: none;
     padding-right: 4%;
+    transition: 0.5s;
 }
 .nav-item {
     padding: 0 15px;
@@ -224,6 +225,7 @@
     .navbar {
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         height: 100vh;
         width: 200px;
         background-color: goldenrod;
