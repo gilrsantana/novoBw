@@ -117,7 +117,7 @@
 .principal-nav {
     width: 100%;
     margin: 0 auto;
-    max-width: 1400px;
+    max-width: 1600px;
     height: 50px;
     border: none;
     background-color: #000000;
@@ -125,13 +125,19 @@
 }
 
 .navbar {
-    height: 50px;
+    height: 100px;
     display: flex;
     justify-content: flex-end;
-    align-items:flex-end;
+    align-items:center;
     list-style: none;
     padding-right: 4%;
     transition: 0.5s;
+}
+
+.brand {
+    margin-right: auto;
+    z-index: 4;
+    margin-left: 20px;
 }
 .nav-item {
     padding: 0 15px;
@@ -219,7 +225,7 @@
     }
 
     .content-header {
-        margin-top: -10px;
+        margin-top: -5px;
     }
 
     .navbar {
