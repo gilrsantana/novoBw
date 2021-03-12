@@ -2,6 +2,7 @@
 @import url(./about.css);
 @import url(./portfolio.css);
 @import url(./contact.css);
+@import url(./footer.css);
 
 * {
     margin: 0;
