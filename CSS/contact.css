@@ -6,6 +6,55 @@
 .contact {
     width: 100%;
     height: 100vh;
-    background: url("../Assets/Img/coffee.jpg") center;
-    filter: grayscale(100%);
+    background: url("../Assets/Img/coffee-bg.jpg") center;
+    padding: 50px 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.contact .container {
+    background-color: rgba(255,255,255,0.8);
+    height: 100%;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.cont a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.cont .fab,
+.cont .fas {
+    font-size: 1.5em;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.cont a:hover{
+    color: #daa520;
+
+}
+
+@media screen and (max-width: 576px){
+    .cont .fab,
+    .cont .fas {
+        font-size: 1em;
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+
+    .cont a {
+        font-size: 1em;
+    }
+
+    .contact {
+        height: 100%;
+    }
+
 }
