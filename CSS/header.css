@@ -240,4 +240,8 @@
         top: 0;
         right: 0;
     }
+
+    .brand {
+        display: none;
+    }
 }
