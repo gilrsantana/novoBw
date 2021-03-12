@@ -14,6 +14,9 @@
     <!-- Smooth Scroll JS -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
 
+    <!-- Script -->
+    <script src="./JS/script.js"></script>
+
     <title>Gilmar Santana</title>
   </head>
 
@@ -205,30 +208,6 @@
       <p>Copyright 2021</p>
     </footer>
    
-
-    <script>
-      var menuBtn = document.querySelector("#menuBtn");
-      var menu = document.querySelector("#menu");
-      var navbar = document. querySelector("#navbar");
-
-      navbar.style.right = "-250px";
-
-      menuBtn.onclick = function() {
-        if(navbar.style.right == "-250px") {
-          navbar.style.right = "-1px";
-          menu.src = "./Assets/Img/close.png"
-        } else {
-          navbar.style.right = "-250px";
-          menu.src = "./Assets/Img/menu.png"
-        }
-      }
-
-      var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 1500,
-            speedAsDuration: true
-      });
-
-    </script>
   </body>
 
 </html>
