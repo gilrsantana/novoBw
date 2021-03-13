@@ -253,3 +253,11 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 578px){
+
+    .header-description {
+        margin-top: 0;
+    }
+}
+   
