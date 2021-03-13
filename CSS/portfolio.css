@@ -1,27 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Roboto:wght@300&display=swap');
+/***************************************/
+/*** CSS rules for portfolio section ***/
+/***************************************/
 
 
 .portfolio {
-    font-family: 'Libre Baskerville', serif;
     padding: 50px 0;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #000;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff;
 }
 
 .port-id span{
     display: inline-block;
     margin-bottom: 50px;
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 2em;
     padding: 10px;
+    background-color: #fff;
+    font-size: 2em;
+    color: #000;   
 }
 
 .t-port::first-letter {
-    color: rgba(255,255,255,0.5);
-    font-size: 1.5em;   
+    font-size: 1.5em;  
+    color: rgba(255,255,255,0.5); 
 }
 
 .job-box {
@@ -32,10 +32,10 @@
 }
 
 .job {
+    position: relative;
     flex-basis: 45%;
     height: 300px;
     margin-top: 20px;
-    position: relative;
     filter: grayscale(100%);
 }
 
@@ -60,35 +60,35 @@
 } 
 
 .job-desc {
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
     display: flex;
     align-items: flex-end;
     justify-content:center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    transition: 0.5s;
     overflow: hidden;
 }
 
 .job-desc a {
     width: 130px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-    font-weight: 900;
-    background-color: #daa520;
-    border-radius: 3px;
     margin: 10px;
     padding: 10px 15px;
-    font-style: normal;
-    font-family: sans-serif;
+    background-color: #daa520;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0;
     transform: translateY(200%);
     transition: 0.5s;
-    opacity: 0;
 }
 
 .job-desc a:hover {
@@ -103,7 +103,7 @@
     filter: none;
     transform: translateY(0);
     opacity: 1;
-    transition:0.7s ease
+    transition:0.7s all ease;
 }
 
 @media screen and (max-width: 768px){

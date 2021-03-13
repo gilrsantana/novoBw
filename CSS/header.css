@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Roboto:wght@300&display=swap');
+/***********************************/
+/***      CSS rules for header   ***/
+/***********************************/
+
 
 @keyframes arrow1{
     from {transform: translateX(-1000px);}
@@ -33,11 +34,11 @@
 }
 
 .principal-header {
-    font-family: 'Libre Baskerville', serif;
     width: 100%;
-    margin:0 auto;
     height: 433px;
+    margin:0 auto;
     background-color: #000000;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .arrows {
@@ -47,13 +48,14 @@
 }
 
 .triangle {
+    position: absolute;
+    top: 0;   
     width: 0;
     height: 0;
     border-left: 50px solid transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    position: absolute;
-    top: 0;   
+    
 }
 
 .tr1 {
@@ -93,18 +95,18 @@
 
 .header-box {
     position: relative;
-    overflow: hidden;
     height: 383px;
     border: none;
+    overflow: hidden;
 }
 
 .capa {
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 433px;
     max-width: 577px;
     min-width: 320px;
-    position: absolute;
-    top: 0;
     overflow: hidden;
     z-index: 3;
 } 
@@ -116,21 +118,20 @@
 
 .principal-nav {
     width: 100%;
-    margin: 0 auto;
-    max-width: 1600px;
     height: 50px;
+    max-width: 1600px;
+    margin: 0 auto;
     border: none;
-    background-color: #000000;
     z-index: 3;
 }
 
 .navbar {
-    height: 100px;
     display: flex;
     justify-content: flex-end;
     align-items:center;
-    list-style: none;
+    height: 100px;
     padding-right: 4%;
+    list-style: none;
     transition: 0.5s;
 }
 
@@ -139,31 +140,33 @@
     margin-left: 4%;
     z-index: 4;
 }
+
 .nav-item {
     padding: 0 15px;
 }
 
 .nav-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 5px;
     display:inline-block;
-    letter-spacing: 2px;
-    font-size: 0.9em;
     position: relative;
+    padding-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
     z-index: 10;
 }
 
 .nav-link::after {
     content: "";
-    width: 0;
-    height: 3px;
-    background-color: goldenrod;
     position: absolute;
     left: 0;
     bottom: -10px;
+    width: 0;
+    height: 3px;
+    background-color: #daa520;
 }
+
 .nav-link:hover::after {
     width: 100%;
     transition: 0.5s;
@@ -174,16 +177,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    z-index:3;
-    color: #ffffff;
-    height: 383px;
     width: 50%;
+    height: 383px;
     max-width: 380px;
     min-width: 280px;
     margin: 0 auto;
     margin-top: 50px;
     font-size: 3em;
-
+    color: #fff;
+    z-index:3;
 }
 
 .content-header .destack {
@@ -192,30 +194,30 @@
 }
 
 .header-description {
+    margin-top: 30px;
     font-size: 0.4em;
     font-style: italic;
     line-height: 2em;
-    margin-top: 30px;
     color: #ffffff;
 }
 
 .menuBtn {
     display: none;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     width: 40px;
     height: 40px;
     background-color: #daa520;
     border-radius: 3px;
-    position: fixed;
-    top: 10px;
-    right: 10px;
     z-index: 10;
 }
 
 .menuBtn img {
-    width: 30px;
     position: absolute;
     top: 5px;
     left: 5px;
+    width: 30px;
 }
 
 @media screen and (max-width: 768px){
@@ -229,16 +231,16 @@
     }
 
     .navbar {
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        height: 100vh;
-        width: 200px;
-        background-color: goldenrod;
-        z-index: 50;
         position: fixed;
         top: 0;
         right: -250px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 200px;
+        height: 100vh;
+        background-color: goldenrod;
+        z-index: 10;
     }
 
     .brand {

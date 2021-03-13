@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,100&family=Libre+Baskerville:ital@1&family=Roboto:wght@300&display=swap');
+/***********************************/
+/*** CSS rules for about section ***/
+/***********************************/
 
 
 .about {
-    font-family: 'Libre Baskerville', serif;
     padding: 50px 0;
+    font-family: 'Libre Baskerville', serif;
     background-color: #d3d3d3;
 }
 
@@ -17,38 +17,39 @@
 }
 
 .ident {
-    flex-basis: 10%;
     position: relative;
-
+    flex-basis: 10%;
 }
 
 .ident span{
     display: inline-block;
     margin-bottom: 50px;
-    background-color: black;
-    color: #ffffff;
-    font-size: 2em;
     padding: 10px;
+    background-color: #000;
+    font-size: 2em;
+    color: #fff;
 }
+
 .ident p {
-    line-height: 45px;
-    font-size: 40px;
     margin-left: 15px;
+    font-size: 40px;
+    line-height: 45px;
 }
+
 .content-about {
     flex-basis: 85%;
     margin: 0 auto;
 }
 
 .title-section {
-    font-size: 3em;
     margin-bottom: 15px;
     border-bottom: 3px solid goldenrod;
+    font-size: 3em;
 }
 
 .title-section::first-letter {
+    font-size: 1.5em;
     color: rgba(0,0,0,0.5);
-    font-size: 1.5em;   
 }
 
 .content-about p {
@@ -67,11 +68,11 @@
 .value {
     flex-basis: 250px;
     height: 250px;
-    background-color: #000000;
-    color: #ffffff;
     margin-top: 20px;
     margin-right: 20px;
     padding: 10px;
+    background-color: #000;
+    color: #fff;
     transition: 0.5s;
 }
 
@@ -82,8 +83,8 @@
 
 
 .value h3{
-    font-size: 2em;
     margin-bottom: 15px;
+    font-size: 2em;
 }
 
 .value p {
@@ -97,15 +98,14 @@
 
 .vl1::after {
     content: "1";
-    font-size: 250px;
-    color: rgba(255,255,255,0.3);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 250px;
     line-height: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
-
 
 .vl2 {
     position: relative;
@@ -113,13 +113,13 @@
 
 .vl2::after {
     content: "2";
-    font-size: 250px;
-    color: rgba(255,255,255,0.3);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 250px;
     line-height: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
 
 .vl3 {
@@ -128,13 +128,13 @@
 
 .vl3::after {
     content: "3";
-    font-size: 250px;
-    color: rgba(255,255,255,0.3);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 250px;
     line-height: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
 
 .vl4 {
@@ -143,13 +143,13 @@
 
 .vl4::after {
     content: "4";
-    font-size: 250px;
-    color: rgba(255,255,255,0.3);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 250px;
     line-height: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
 
 .vl5 {
@@ -158,13 +158,13 @@
 
 .vl5::after {
     content: "5";
-    font-size: 250px;
-    color: rgba(255,255,255,0.3);
-    opacity: 0.5;
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 250px;
     line-height: 250px;
+    color: rgba(255,255,255,0.3);
+    opacity: 0.5;
 }
 
 .value:hover.vl1::after,
@@ -172,7 +172,7 @@
 .value:hover.vl3::after,
 .value:hover.vl4::after,
 .value:hover.vl5::after {
-    color: rgb(218,165,32);
+    color: #daa520;
 }
 
 @media screen and (max-width: 768px){
@@ -184,8 +184,8 @@
 
 @media screen and (max-width: 576px){
     .ident {
-        flex-basis: 85%;
         display: flex;
+        flex-basis: 85%;
         margin-bottom: 50px;
     }
 
