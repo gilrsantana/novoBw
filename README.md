@@ -3,8 +3,8 @@
 
 http://www.gilmarsantana.com/
 
-This is a official website of Gilmar Santana.
-This project was buil with b&w conceptions and many effects in hover status changing the element to color mode.
+This is the official website of Gilmar Santana.
+This project was built with b&w conceptions and many effects in hover status changing the element to color mode.
 
 ## Layout Project
 
