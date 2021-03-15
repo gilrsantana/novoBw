@@ -60,5 +60,7 @@ https://github.com/cferdinandi/smooth-scroll
 # Autor
 
 Gilmar Ribeiro Santana
+[GitHub](https://www.github.com/gilrsantana)
+[Linkedin](https://www.linkedin.com/in/gilmarribeirosantana/)
+[Website](http://www.gilmarsantana.com)
 
-https://www.linkedin.com/in/gilmarribeirosantana/
