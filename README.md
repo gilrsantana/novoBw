@@ -39,3 +39,10 @@ Gilmar Ribeiro Santana
 [Linkedin](https://www.linkedin.com/in/gilmarribeirosantana/)
 [Website](http://www.gilmarsantana.com)
 
+<br/> :email: &nbsp; Meet me: [![Linkedin Badge](https://img.shields.io/badge/-GilmarSantana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/gilmarribeirosantana/)](https://www.linkedin.com/in/gilmarribeirosantana/) 
+| 
+[![Gmail Badge](https://img.shields.io/badge/-gilmar.ribeiro.santana@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:gilmar.ribeiro.santana@gmail.com)](mailto:gilmar.ribeiro.santana@gmail.com)
+|
+[![Website](https://img.shields.io/website?down_color=red&up_message=Gilmar&url=http%3A%2F%2Fwww.gilmarsantana.com)](http://www.gilmarsantana.com)
+
+
