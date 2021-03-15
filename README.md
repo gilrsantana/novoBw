@@ -36,7 +36,7 @@ The frontend prototype was build at figma platform showing different views, in d
 
 &nbsp;
 
-## Layout Mobile
+## Menu Responsivo
 ![web](./Gilmar_Menu_Responsivo.png)
 
 ## Technologies
@@ -54,10 +54,6 @@ Style in elements, FlexBox layout, KeyFrames, Transition, Position.
 Smooth scroll with JS using cferdinandi smooth-scroll CDN
 https://github.com/cferdinandi/smooth-scroll
 
-
-&nbsp;
-
-&nbsp;
 
 &nbsp;
 
