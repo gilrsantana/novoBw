@@ -22,31 +22,22 @@ The frontend prototype was build at figma platform showing different views, in d
 [Figma project](https://www.figma.com/file/7ZL1ASFYD2Q9uu11MngKQ4/Gilmar-WebSite?node-id=0%3A1)
 
 
-
-
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-## Layout Web
+## Layout Desktop
 ![web](./Gilmar_Website_Desktop.png)
 
-![web2](Img/Views/website-view2.png)
 
-![web3](Img/Views/website-view3.png)
+&nbsp;
 
-![web4](Img/Views/website-view4.png)
-
-![web5](Img/Views/website-view5.png)
+## Layout Mobile
+![web](./Gilmar_Website_Mobile.png)
 
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
+## Layout Mobile
+![web](./Gilmar_Menu_Responsivo.png)
 
 ## Technologies
 
