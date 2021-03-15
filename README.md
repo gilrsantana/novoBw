@@ -31,7 +31,7 @@ The frontend prototype was build at figma platform showing different views, in d
 &nbsp;
 
 ## Layout Web
-![web](Img/Views/website-view.png)
+![web](./Gilmar_Website_Desktop.png)
 
 ![web2](Img/Views/website-view2.png)
 
