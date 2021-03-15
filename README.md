@@ -1,31 +1,27 @@
 # novoBw
 
-//![GitHub](https://img.shields.io/github/license/gilrsantana/DevCar)
-
 
 &nbsp;
 
 # About The Project
 
-https://devcar.netlify.app/
+http://www.gilmarsantana.com/
 
-DevCar is a frontend project that was build with a youtube video at https://youtu.be/WzO5QlkjVLA.
-The project show a model of a rental car website.
+This is a official website of Gilmar Santana.
+This project was buil with b&w conceptions and many effects in hover status changing the element to color mode.
+
 
 
 &nbsp;
 
 
-## Layout Mobile
-![mobile1](Img/Views/mobile-view.png)       
+## Layout Project
 
-![mobile2](Img/Views/mobile-view2.png) 
+The frontend prototype was build at figma platform showing different views, in desktop with max-width: 1800px, and mobile with min-width 320px.
 
-![mobile3](Img/Views/mobile-view3.png)      
+[Figma project](https://www.figma.com/file/7ZL1ASFYD2Q9uu11MngKQ4/Gilmar-WebSite?node-id=0%3A1)
 
-![mobile4](Img/Views/mobile-view4.png) 
 
-![mobile5](Img/Views/mobile-view5.png) 
 
 
 &nbsp;
