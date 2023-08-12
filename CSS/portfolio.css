@@ -44,6 +44,11 @@
     filter: grayscale(100%);
 }
 
+.job0 {
+    background: url("../Assets/Img/WorkBlock.png")  center no-repeat;
+    background-size: cover;
+} 
+
 .job1 {
     background: url("../Assets/Img/barbershop2.png")  center no-repeat;
     background-size: cover;
@@ -64,6 +69,11 @@
     background-size: cover;
 } 
 
+.job5 {
+    background: url("../Assets/Img/Redstore.png") center no-repeat;
+    background-size: cover;
+} 
+
 .job-desc {
     display: flex;
     align-items: flex-end;
@@ -76,6 +86,15 @@
     padding: 15px;
     transition: 0.5s;
     overflow: hidden;
+}
+
+.job-desc-text {
+    text-align: center; 
+    letter-spacing: 1px;
+    background-color: #daa520;
+    opacity: 0;
+    transform: translateY(200%);
+    transition: 0.5s;
 }
 
 .job-desc a {
@@ -101,10 +120,18 @@
     color: #daa520;
 }
 
+.job0:hover, .job0:hover .job-desc a,
+.job0:hover, .job0:hover .job-desc-text,
 .job1:hover, .job1:hover .job-desc a,
+.job1:hover, .job1:hover .job-desc-text,
 .job2:hover, .job2:hover .job-desc a,
+.job2:hover, .job2:hover .job-desc-text,
 .job3:hover, .job3:hover .job-desc a,
-.job4:hover, .job4:hover .job-desc a {
+.job3:hover, .job3:hover .job-desc-text,
+.job4:hover, .job4:hover .job-desc a,
+.job4:hover, .job4:hover .job-desc-text,
+.job5:hover, .job5:hover .job-desc a,
+.job5:hover, .job5:hover .job-desc-text {
     filter: none;
     transform: translateY(0);
     opacity: 1;
